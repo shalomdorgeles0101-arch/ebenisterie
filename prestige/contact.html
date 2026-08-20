@@ -9,21 +9,24 @@
     <script src="https://kit.fontawesome.com/0f811edc99.js" crossorigin="anonymous"></script>
 </head>
 <body>
-     <header>
+    <header>
         <div class="navigation">
             
             <a class="logo" href="#">EBENISTERIE <span>PRESTIGE</span></a>
 
-            <ul>
+           <nav>
+             <ul class="menu">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="service.html">Services</a></li>
                 <li><a href="realisation.html">Réalisations</a></li>
                 <li><a href="apropo.html">À Propos</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <div class="devi-lien">
-                    <li><a href="contact.html#formulaire">Devis Gratuit</a></li>
+                    <li><a href="contact.html#formulaire">Devis</a></li>
                 </div>
-            </ul>
+             </ul>
+            <button class="btn-menu">☰</button>
+           </nav>
         </div>
     </header>
 
@@ -72,7 +75,7 @@
 
                     <label for="Votre message">Votre message</label>
                     <textarea name="message" id="message" placeholder="Decrivez votre projet, vos idées, vos contraintes.." required></textarea>
-                    <button type="submit">Demandez un devis ➤</button>
+                    <button class="bouton-b" type="submit">Demandez un devis ➤</button>
                   </form>
                   
                 </div>
@@ -176,5 +179,7 @@
         </footer>
 
     </main>
+
+    <script src="style.js"></script>
 </body>
 </html>
