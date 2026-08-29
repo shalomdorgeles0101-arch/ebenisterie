@@ -1062,40 +1062,17 @@ footer .c-footer{
 
 
 
-.prede{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    height: 350px;
-    margin: 50px;
-    gap: 40px;
-    
 
-   
-    
+.prede-p{   
+    align-items: center;
+    margin-top: 50px;
+}
+
+.preder-p{
+    margin-top: 25px;
 }
 
 
-.prede-img img{
-    width: 100%;
-    border-radius: 20px;
-    object-fit: cover;
-    box-shadow: 1px 0px 2px 0px #000000;
-}
-
-
-.prede-p{
-    width:350px ;
-    height: 200px;
-}
-
-
-.preder{
-    width: 500px;
-    height: 100px;
-    margin-bottom: 45px;
-    
-}
 
 
 .preder h1 span{
@@ -1479,20 +1456,20 @@ textarea{
         margin-right: 15px;
     }
 
-    .prede img{
-        width: 100%;
-    }
+   
 
     .preder p{
-        font-size: 1.5rem;
+        font-size: 17px;
     }
+
+    
 
 
 
     .p-note{
         flex-direction: column;
         gap: 10px;
-        margin-top: 590px;
+        margin-top: 50px;
        
     }
 
