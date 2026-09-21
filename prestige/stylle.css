@@ -1229,17 +1229,41 @@ footer .c-footer{
 
 
 
-#formulaire{
+.form-bien{
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    padding: 25px;
     align-items: center;
+      
+}
+
+.formulaire{
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .form form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+}
+
+.forme-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.forme-form a{
+    padding: 25px;
+    text-decoration: none;
+    color:#fff ;
+    background-color: #240e01;
+    width: 100%;
+    text-align: center;
+    border-radius: 15px;
 }
 
 
