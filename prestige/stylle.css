@@ -1311,7 +1311,9 @@ textarea{
     }
 
     .menu li{
-         margin-bottom: 15px;
+        margin-bottom: 10px;
+        padding-top: 30px;
+        margin-left: 20px;
     }
 
     .btn-menu{
@@ -1321,6 +1323,7 @@ textarea{
 
     .navigation{
         display: flex;
+        
        
     }
     
@@ -1398,11 +1401,18 @@ textarea{
     }
 
     .c-don{
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        padding: 20px;
         
     }
 
+    .c-don img{
+       width: 100%;
+    }
+
+
+    
 
     .footer{
         flex-direction: column;
